@@ -162,10 +162,12 @@ public class AgendarSalaoTest {
 
 		} else if (motivoT.equals("Data nao atinge a antecedencia maxima para reserva")) {
 
-			NotificarPorEmailTest enviarEmail = new NotificarPorEmailTest();
-			enviarEmail.EnviarEmail(
-					"O Agendamento do salao de Festa do Ville Hungria para Anna Clara ainda nao foi possivel fazer, estamos batalhando pra conseguir de forma automatica....Vamos aguardar pois a "
-							+ motivoT + ("."));
+			System.out.println(motivoT);
+
+			// NotificarPorEmailTest enviarEmail = new NotificarPorEmailTest();
+			// enviarEmail.EnviarEmail(
+			// 		"O Agendamento do salao de Festa do Ville Hungria para Anna Clara ainda nao foi possivel fazer, estamos batalhando pra conseguir de forma automatica....Vamos aguardar pois a "
+			// 				+ motivoT + ("."));
 
 		} else {
 
